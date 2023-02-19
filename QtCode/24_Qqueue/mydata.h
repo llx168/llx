@@ -4,6 +4,7 @@
 #include<QQueue>
 #include <string>
 #include <vector>
+#include <QMap>
 using namespace std;
 typedef struct
 {
@@ -25,6 +26,6 @@ public:
     int id;
 };
 
-extern QQueue<Point> d_queue;
+extern QMap<QString,QQueue<Point>*> d_queue;
 
 #endif // MYDATA_H

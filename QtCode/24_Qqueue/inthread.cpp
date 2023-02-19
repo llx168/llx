@@ -18,7 +18,7 @@ void InThread::run()
         tempdata.azimuth = 100.0+count;
         tempdata.dist = 20.0+count;
 //        temdata.push_back(point);
-        d_queue.enqueue(tempdata);
+//        d_queue.enqueue(tempdata);
         count++;
         msleep(1);
     }

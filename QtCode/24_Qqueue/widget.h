@@ -5,6 +5,8 @@
 #include"mydata.h"
 #include"inthread.h"
 #include"outthread.h"
+#include <QMap>
+#include<QString>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Widget; }
@@ -23,9 +25,14 @@ private slots:
 
     void on_pushButton_2_released();
 
+    void on_create_queue_released();
+
+    void on_delete_queue_released();
+
 private:
     Ui::Widget *ui;
     InThread *it;
     OutThread *ot;
+
 };
 #endif // WIDGET_H

@@ -38,3 +38,31 @@ void Widget::on_pushButton_2_released()
 //    qDebug<<1;
 
 }
+
+void Widget::on_create_queue_released()
+{
+    QString str1 = "q";
+
+    for(int i=0;i<3;i++){
+//        QQueue<Point> *queue1 = new QQueue<Point>();
+        str1 = "q";
+        d_queue.insert(str1.append(i),new QQueue<Point>);
+
+    }
+
+    bool b = &d_queue[QString::fromStdString("q1")]==&d_queue[QString::fromStdString("q2")];
+    qDebug()<<b;
+
+
+}
+
+void Widget::on_delete_queue_released()
+{
+    QString str1 = "q";
+    for(int i=0;i<3;i++){
+        delete d_queue[str1.append(i)];
+    }
+
+    qDebug()<<"delete is success!";
+
+}

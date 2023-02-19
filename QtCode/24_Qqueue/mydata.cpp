@@ -5,4 +5,5 @@ MyData::MyData()
 
 }
 
-QQueue<Point> d_queue;
+
+QMap<QString,QQueue<Point>*> d_queue;

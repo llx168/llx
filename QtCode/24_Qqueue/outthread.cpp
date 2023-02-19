@@ -13,11 +13,9 @@ void OutThread::run()
     Point temdata;
     while(1){
         if(!d_queue.isEmpty()){
-            temdata=d_queue.dequeue();
+//            temdata=d_queue.dequeue();
             qDebug()<<"id:"<<temdata.pointId;
 //            qDebug()<<"azimuth:"<<temdata.azimuth;
-
-
             qDebug()<<"size: "<<d_queue.size();
 //            temdata.clear();
         }

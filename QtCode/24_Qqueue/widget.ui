@@ -39,6 +39,45 @@
     <string>test</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="display_queue">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>210</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示队列</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_queue">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>390</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除队列</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="create_queue">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>450</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>创建队列</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
