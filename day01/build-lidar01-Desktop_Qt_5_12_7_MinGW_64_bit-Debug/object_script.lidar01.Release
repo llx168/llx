@@ -1,0 +1,12 @@
+release/dialog.o
+release/main.o
+release/mainwindow.o
+release/pointcloudprocdialog.o
+release/radarimage.o
+release/showparadialog.o
+release/qrc_imageResource.o
+release/moc_dialog.o
+release/moc_mainwindow.o
+release/moc_pointcloudprocdialog.o
+release/moc_radarimage.o
+release/moc_showparadialog.o

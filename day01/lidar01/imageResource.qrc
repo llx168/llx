@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lidar3.png</file>
+        <file>lidarData2.png</file>
+        <file>lidarData3.png</file>
+    </qresource>
+</RCC>
