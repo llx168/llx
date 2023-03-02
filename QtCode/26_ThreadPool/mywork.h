@@ -3,6 +3,7 @@
 
 #include <QObject>
 #include <QRunnable>
+#include <QTimer>
 
 class MyWork : public QObject,public QRunnable
 {
@@ -16,6 +17,8 @@ signals:
     // QRunnable interface
 public:
     void run();
+    QString name;
+
 };
 
 #endif // MYWORK_H

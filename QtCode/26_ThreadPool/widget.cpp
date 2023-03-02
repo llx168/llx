@@ -10,7 +10,9 @@ Widget::Widget(QWidget *parent)
     ui->setupUi(this);
     qDebug()<<"主线程号："<<QThread::currentThread();
     MyWork* task = new MyWork;
+    task->name = "zhangsan";
     QThreadPool::globalInstance()->start(task);
+
 }
 
 Widget::~Widget()

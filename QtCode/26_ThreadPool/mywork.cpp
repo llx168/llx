@@ -9,5 +9,6 @@ MyWork::MyWork(QObject *parent) : QObject(parent)
 void MyWork::run()
 {
     qDebug()<<"子线程号："<<QThread::currentThread();
+    qDebug()<<"thread name:"<<name;
 
 }
